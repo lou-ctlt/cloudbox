@@ -1,0 +1,43 @@
+.card{
+    margin-bottom: 10px;
+}
+
+.card-body{
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.newbutton{
+    display: block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    background-color: #343a40;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.newbutton:hover{
+    transform: scale(1.2);
+    text-decoration: none;
+    color: #FFF;
+}
+
+a{
+    color: black;
+}
+
+.td{
+    height: 100px;
+}
+
+.teaser{
+    width: 100px;
+}
